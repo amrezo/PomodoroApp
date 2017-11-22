@@ -1,0 +1,43 @@
+body {
+	font-size: 100%;
+	font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 5em;
+	text-align: center;
+	margin: 40px auto;
+	color: #f44242;
+}
+
+.container {
+	width: 1000px;
+	background-color: #fff1ef;
+	border: 1px solid #ff9c8e;
+	border-radius: 20px;
+	margin: 40px auto;
+	box-shadow: 0px 0px 44px -6px rgba(191,191,191,0.5);
+
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#start-button {
+	margin: 20px auto;
+	box-shadow: 0px 0px 44px -6px rgba(191,191,191,1);
+    padding: 20px 20px;
+    border-radius: 100px;
+    background-color: #f44242; 
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+#timer {
+	text-align: center;
+	font-weight: 200;
+	font-size: 10em;
+}
