@@ -25,12 +25,53 @@ h1 {
     text-align: center;
 }
 
-#start-button {
-	margin: 20px auto;
+#focus-button {
+	margin: 20px 20px;
 	box-shadow: 0px 0px 44px -6px rgba(191,191,191,1);
     padding: 20px 20px;
     border-radius: 100px;
+    border: none;
+    background-color: #41f4d6; 
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+#start-button {
+	margin: 20px 20px;
+	box-shadow: 0px 0px 44px -6px rgba(191,191,191,1);
+    padding: 20px 20px;
+    border-radius: 100px;
+    border: none;
     background-color: #f44242; 
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+#start-button:disabled {
+	background-color: #ff9696;
+}
+
+#break-button {
+	margin: 20px 20px;
+	box-shadow: 0px 0px 44px -6px rgba(191,191,191,1);
+    padding: 20px 20px;
+    border-radius: 100px;
+    border: none;
+    background-color: #9b42f4; 
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+#stop-button {
+	margin: 20px 20px;
+	box-shadow: 0px 0px 44px -6px rgba(191,191,191,1);
+    padding: 20px 20px;
+    border-radius: 100px;
+    border: none;
+    background-color: #ff0072; 
     color: #fff;
     font-weight: 200;
     font-size: 1.3em;
